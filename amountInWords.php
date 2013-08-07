@@ -2,6 +2,13 @@
 
 /**
  * @author Jacek Symonowicz
+ * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
+ *
+ * This function translates a number into word representation in POLISH language.
+ * It's not as easy as it may seem, because Polish rules for numerals are quite
+ * complex. Typical use case is to describe a total price inside a generated
+ * invoice, so default options cover this case. Another purpose may be to write
+ * an item's weight in grams precisely.
  *
  * @param int|double|string $number
  * @param boolean $currency

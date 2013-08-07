@@ -14,6 +14,13 @@ complex. Typical use case is to describe a total price inside a generated
 invoice, so default options cover this case. Another purpose may be to write
 an item's weight in grams precisely.
 
+PL:
+Ta funkcja zwraca podaną liczbę w postaci słownej, zgodnie z polskimi zasadami
+pisowni liczebników. Typowe zastosowanie to wypisanie na wygenerowanej fakturze
+słownie kwoty, więc domyślne parametry funkcji uwzględniają ten przypadek.
+Można jednak używać jej również do opisu innych wartości, przykłady poniżej.
+
+
 Examples:
 ``` php
 echo amountInWords(1) .PHP_EOL;
