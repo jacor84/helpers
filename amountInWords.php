@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @author Jacek Symonowicz
+ *
+ * @param int|double|string $number
+ * @param boolean $currency
+ * @param array $suffixes
+ * @return string
+ */
 function amountInWords($number, $currency = true, $suffixes = array('złoty', 'złote', 'złotych'))
 {
 	// define Polish names for numbers: from 0 to 900
