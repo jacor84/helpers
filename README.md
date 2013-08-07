@@ -5,8 +5,8 @@ Those files are supposed to be handy in various projects written in PHP.
 Feel free to use any of them and please tell me if you find a bug.
 
 
-amountInWords
--------------
+amountInWords()
+---------------
 
 This function translates a number into word representation in POLISH language.
 It's not as easy as it may seem, because Polish rules for numerals are quite
